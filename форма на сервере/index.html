@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма ввода данных</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f9fc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 400px;
+            background: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px; /* Расстояние сверху */
+        }
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+         
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input, select {
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input:focus, select:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+        .but {
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            width: 100%;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Форма ввода данных</h1>
+        <form action="/cgi-bin/processing.py">
+            <div class="form-group">
+                <label for="fio">ФИО</label>
+                <input type="text" id="fio" name="fio" placeholder="Введите ФИО" required>
+            </div>
+            <div class="form-group">
+                <label for="city">Город</label>
+                <input type="text" id="city" name="city" placeholder="Введите город" required>
+            </div>
+            <div class="form-group">
+                <label for="birthdate">День рождения</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+            <div class="form-group">
+                <label for="workplace">Место работы</label>
+                <input type="text" id="workplace" name="workplace" placeholder="Введите место работы">
+            </div>
+            <div class="form-group">
+                <label for="position">Должность</label>
+                <input type="text" id="position" name="position" placeholder="Введите должность">
+            </div>
+            <div class="form-group">
+                <input class ="but" type="submit" value="Отправить">
+            </div>
+        </form>
+        <form action="/cgi-bin/show_tables.py">
+            <div class="form-group">
+                <input class ="but" type="submit" value="Посмотреть базу">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
