@@ -1,0 +1,293 @@
+<?xml version="1.0" ?>
+<database>
+  
+  
+  <persons>
+    
+    
+    <record>
+      
+      
+      <id>1</id>
+      
+      
+      <fio>Шишкин Иван Иванович</fio>
+      
+      
+      <city>Москва</city>
+      
+      
+      <birthday>1732-01-13</birthday>
+      
+      
+      <company_name>Императорская академия художеств</company_name>
+      
+      
+      <position>Ученик</position>
+      
+      
+      <registration>2024-11-20</registration>
+      
+    
+    </record>
+    
+    
+    <record>
+      
+      
+      <id>2</id>
+      
+      
+      <fio>Пушкин Александр Сергеевич</fio>
+      
+      
+      <city>Москва</city>
+      
+      
+      <birthday>1799-06-06</birthday>
+      
+      
+      <company_name>Коллегия иностранных дел</company_name>
+      
+      
+      <position>Секретарь</position>
+      
+      
+      <registration>2024-11-20</registration>
+      
+    
+    </record>
+    
+    
+    <record>
+      
+      
+      <id>3</id>
+      
+      
+      <fio>Ломоносов Михаил Васильевич</fio>
+      
+      
+      <city>Архангельск</city>
+      
+      
+      <birthday>1711-11-08</birthday>
+      
+      
+      <company_name>Питербургская академия наук</company_name>
+      
+      
+      <position>Профессор химии</position>
+      
+      
+      <registration>2024-11-20</registration>
+      
+    
+    </record>
+    
+    
+    <record>
+      
+      
+      <id>4</id>
+      
+      
+      <fio>Новая запись из XML</fio>
+      
+      
+      <city>XML</city>
+      
+      
+      <birthday>01-12-24</birthday>
+      
+      
+      <company_name>XML</company_name>
+      
+      
+      <position>XML</position>
+      
+      
+      <registration>2024-11-22</registration>
+      
+    
+    </record>
+    
+    
+    <record>
+      
+      
+      <id>5</id>
+      
+      
+      <fio>nssssss</fio>
+      
+      
+      <city>2024-12-02</city>
+      
+      
+      <birthday>2024-12-06</birthday>
+      
+      
+      <company_name>Актив ФКТиПМ</company_name>
+      
+      
+      <position>Активист</position>
+      
+      
+      <registration>2024-12-02</registration>
+      
+    
+    </record>
+    
+  
+    <record>
+      <id>300</id>
+      <fio>Новая запись из XML</fio>
+      <city>XML</city>
+      <birthday>01-12-24</birthday>
+      <company_name>XML</company_name>
+      <position>XML</position>
+      <registration>2024-11-22</registration>
+    </record>
+  </persons>
+  
+  
+  <vacancies>
+    
+    
+    <record>
+      
+      
+      <id>1</id>
+      
+      
+      <title>Кондитер</title>
+      
+      
+      <description>Печь пироженки</description>
+      
+      
+      <salary>80000.0</salary>
+      
+    
+    </record>
+    
+    
+    <record>
+      
+      
+      <id>2</id>
+      
+      
+      <title>Системный аналитик</title>
+      
+      
+      <description>Писать ТЗ</description>
+      
+      
+      <salary>85000.0</salary>
+      
+    
+    </record>
+    
+    
+    <record>
+      
+      
+      <id>3</id>
+      
+      
+      <title>Товаровед</title>
+      
+      
+      <description>Работать на складе</description>
+      
+      
+      <salary>50000.0</salary>
+      
+    
+    </record>
+    
+  
+  </vacancies>
+  
+  
+  <applications>
+    
+    
+    <record>
+      
+      
+      <id>1</id>
+      
+      
+      <client_id>1</client_id>
+      
+      
+      <vacancy_id>1</vacancy_id>
+      
+      
+      <application_date>2024-12-01</application_date>
+      
+    
+    </record>
+    
+    
+    <record>
+      
+      
+      <id>2</id>
+      
+      
+      <client_id>2</client_id>
+      
+      
+      <vacancy_id>3</vacancy_id>
+      
+      
+      <application_date>2024-12-01</application_date>
+      
+    
+    </record>
+    
+    
+    <record>
+      
+      
+      <id>3</id>
+      
+      
+      <client_id>3</client_id>
+      
+      
+      <vacancy_id>2</vacancy_id>
+      
+      
+      <application_date>2024-12-01</application_date>
+      
+    
+    </record>
+    
+    
+    <record>
+      
+      
+      <id>4</id>
+      
+      
+      <client_id>2</client_id>
+      
+      
+      <vacancy_id>2</vacancy_id>
+      
+      
+      <application_date>2024-12-01</application_date>
+      
+    
+    </record>
+    
+  
+  </applications>
+  
+
+</database>
